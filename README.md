@@ -50,3 +50,9 @@ This will synchronize all branches with their respective remote branches.
 For most workflows in a Git Flow setup:
 - Push changes from `develop` to the remote `develop` branch during active deevlopment.
 - Merge or finish a feature/release branch, then psh to `develop` or `main` as necessary.
+
+# Creating a new feature branch name `feature/implement-login` from the `develop` branch.
+1. Ensure you are on the develop branch
+```bash
+git checkuout develop
+```
