@@ -56,3 +56,14 @@ For most workflows in a Git Flow setup:
 ```bash
 git checkuout develop
 ```
+
+# Creating a feature Branch
+```bash
+git flow feature start implement-login
+```
+- this creates a new branch named `feature/implement-login` and checks it out automatically
+
+Alternatively, create the branch manually
+```bash
+git checkout -b feature/implement-login
+```
